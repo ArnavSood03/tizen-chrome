@@ -1,6 +1,6 @@
 {
   "name": "tizen-chrome",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "Chrome Wrapper for TizenBrew",
   "main": "index.html",
   "tizenBrew": {
