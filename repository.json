@@ -1,0 +1,8 @@
+{
+  "repositories": [
+    {
+      "name": "Arnavs Chrome",
+      "url": "https://raw.githubusercontent.com/ArnavSood03/tizen-chrome/main/package.json"
+    }
+  ]
+}
