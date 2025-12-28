@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <title>Chrome</title>
-    <style>body { background-color: #000; }</style>
+    <style>
+        body, html { margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden; background: #000; }
+        iframe { width: 100%; height: 100%; border: none; }
+    </style>
 </head>
 <body>
+    <iframe src="https://www.google.com" sandbox="allow-scripts allow-same-origin allow-forms"></iframe>
     <script>
-        // Redirect to Google immediately
-        window.location.replace("https://www.google.com");
+        // Enable remote control 'Back' button to exit app
+        document.addEventListener('keydown', function(e) {
+            if(e.keyCode === 10009) { tizen.application.getCurrentApplication().exit(); }
+        });
     </script>
 </body>
 </html>
