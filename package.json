@@ -1,0 +1,12 @@
+{
+  "name": "tizen-chrome",
+  "version": "1.0.0",
+  "description": "Chrome Wrapper for TizenBrew",
+  "main": "index.html",
+  "tizenBrew": {
+    "packageType": "app",
+    "appName": "Google Chrome",
+    "appPath": "index.html",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Google_Chrome_icon_%28February_2022%29.svg"
+  }
+}
